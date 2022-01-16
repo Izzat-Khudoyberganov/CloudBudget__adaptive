@@ -6,6 +6,17 @@
       flex-direction: column;
       gap: 45px;
       text-align: center;
+      justify-content: center;
+   }
+   .part__title{
+     margin: 0 auto;
+   }
+   .part__text{
+     text-align: center;
+     margin: 24px auto;
+   }
+   .part__links{
+     margin: 0 auto;
    }
    .layout{
       height: 311px;
@@ -184,7 +195,9 @@
   }
 }
 @media(max-width:380px){
-  
+    /* .cardbox{
+      gap: 150px;
+    } */
    .card__info{
       padding: 20px 26px;
       width: 80%;
